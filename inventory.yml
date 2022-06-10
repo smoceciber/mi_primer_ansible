@@ -1,0 +1,20 @@
+web:
+  hosts:
+    20.123.22.70
+  vars:
+    dir_domain: ciber
+    domain: ciberlosenlaces17.hopto.org
+    ansible_user: ubuntu
+    ansible_ssh_private_key_file: ~/.ssh/id_rsa2
+    ansible_sudo_pass: qwerty
+    php_version: 7.4
+bbdd:
+  hosts:
+    20.234.86.115
+  vars:
+    dir_domain: ciber
+    domain: ciberlosenlaces17.hopto.org
+    ansible_user: ubuntu
+    ansible_ssh_private_key_file: ~/.ssh/id_rsa2
+    ansible_sudo_pass: qwerty
+    php_version: 7.4
